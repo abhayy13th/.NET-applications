@@ -2,11 +2,14 @@
 using Calculator;
 using System;
 using Calculator.Arrays;
+using Calculator.Week2;
 
 Calc calculate = new Calc();
-Class2 substract = new Class2();
 Arrays arr = new Arrays();
 Interpolation inter = new Interpolation();
+ControlStatements CS = new ControlStatements();
+
+
 
 Console.WriteLine("Choose an option from the following list:");
 Console.WriteLine("Press 1 for Addition");
@@ -17,6 +20,13 @@ Console.WriteLine("Press 5 for Jagged Arrays");
 Console.WriteLine("Press 6 for SingleDimensional Arrays");
 Console.WriteLine("Press 7 for ImplicitlyTyped Arrays");
 Console.WriteLine("Press 8 for MultiDimensional Arrays");
+Console.WriteLine("Press 9 for If-Else example");
+Console.WriteLine("Press 10 for Switch case example ");
+Console.WriteLine("Press 11 for While loop example ");
+Console.WriteLine("Press 12 for Do While loop example ");
+Console.WriteLine("Press 13 for For example ");
+Console.WriteLine("Press 14 for For each example ");
+
 Console.Write("Your option? ");
 int choice = Convert.ToInt32(Console.ReadLine());
 switch (choice)
@@ -45,6 +55,26 @@ switch (choice)
     case 8:
         arr.MultiDArray();
         break;
+    case 9:
+        CS.CS();
+        break;
+    case 10:
+        CS.switchcase();
+        break;
+    case 11:
+        CS.whileloop();
+        break;
+    case 12:
+        CS.doLoop();
+        Console.WriteLine("Welcome");
+        break;
+    case 13:
+        CS.forExample();
+        break;
+    case 14:
+        CS.forEachExample();
+        break;
+
     default:
         inter.StringInterpolation();
         break;

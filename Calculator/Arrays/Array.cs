@@ -36,9 +36,15 @@ namespace Calculator.Arrays
             string[] week = { "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" };
 
             arrayNumber[2] = 2;
-
-            Console.WriteLine(arrayNumber);
-            Console.WriteLine(week);
+            foreach (string w in week) {
+             Console.WriteLine(w);
+            }
+            foreach (int i in arrayNumber)
+            {
+                Console.WriteLine(i);
+            }
+            
+           
         }
 
         public void MultiDArray()
@@ -60,8 +66,17 @@ namespace Calculator.Arrays
         {
             var names = new[] { "Tony","Achilles","Vanguard","Tree" };
 
+        Console.WriteLine("Implicit Array \n Before:\n");
+            foreach(string s in names) { 
+            Console.WriteLine(s);
+             }
             
+            Console.WriteLine("\nAfter:\n");
            names[3] = "Eklavya";
+
+           foreach(string s in names) { 
+            Console.WriteLine(s);
+                }
 
             Console.WriteLine($"List of names is: {names[3]}");
         }
