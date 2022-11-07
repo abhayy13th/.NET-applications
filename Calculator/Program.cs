@@ -3,11 +3,16 @@ using Calculator;
 using System;
 using Calculator.Arrays;
 using Calculator.Week2;
+using Calculator.Week3;
 
 Calc calculate = new Calc();
 Arrays arr = new Arrays();
 Interpolation inter = new Interpolation();
 ControlStatements CS = new ControlStatements();
+Swap sw = new Swap();
+OddEven oe = new OddEven();
+Search sr = new Search();
+Prime p = new Prime();
 
 
 
@@ -26,6 +31,10 @@ Console.WriteLine("Press 11 for While loop example ");
 Console.WriteLine("Press 12 for Do While loop example ");
 Console.WriteLine("Press 13 for For example ");
 Console.WriteLine("Press 14 for For each example ");
+Console.WriteLine("Press 15 for Prime or not example ");
+Console.WriteLine("Press 16 for Odd even example ");
+Console.WriteLine("Press 17 for Search element in array ");
+Console.WriteLine("Press 18 for Swap example ");
 
 Console.Write("Your option? ");
 int choice = Convert.ToInt32(Console.ReadLine());
@@ -73,6 +82,18 @@ switch (choice)
         break;
     case 14:
         CS.forEachExample();
+        break;
+    case 15:
+        p.prime();
+        break;
+    case 16:
+        oe.odd_even();
+        break;
+    case 17:
+        sr.stringSearch();
+        break;
+    case 18:
+        sw.swap();
         break;
 
     default:
