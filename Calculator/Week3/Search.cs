@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace Calculator.Week3
 {
@@ -51,7 +52,8 @@ namespace Calculator.Week3
             str = Console.ReadLine();
             for (i = 0; i < n; i++)
             {
-                if (arr[i] == str)
+               
+                if (arr[i].ToLower() == str.ToLower())
                 {
                     c = 1;
                     pos = i + 1;
