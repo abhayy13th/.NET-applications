@@ -38,9 +38,9 @@ namespace Calculator.Week3
         }
         public void stringSearch()
         {
-            string[] arr = new string[100];
+            string?[] arr = new string[100];
             int i, n, c = 0, pos = -1;
-            string str;
+            string? str;
             Console.WriteLine("Enter the number of elements in array");
             n = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter the elements of the array");

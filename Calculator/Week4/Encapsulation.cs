@@ -4,15 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Calculator.Week3
+namespace Calculator.Week4
 {
-    internal class Week3
+    internal class Encapsulation
     {
-        
-        
-
-        
-
-        
     }
 }

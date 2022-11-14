@@ -4,6 +4,7 @@ using System;
 using Calculator.Arrays;
 using Calculator.Week2;
 using Calculator.Week3;
+using Calculator.Week4;
 
 Calc calculate = new Calc();
 Arrays arr = new Arrays();
@@ -13,7 +14,6 @@ Swap sw = new Swap();
 OddEven oe = new OddEven();
 Search sr = new Search();
 Prime p = new Prime();
-
 
 
 Console.WriteLine("Choose an option from the following list:");
@@ -94,6 +94,9 @@ switch (choice)
         break;
     case 18:
         sw.swap();
+        break;
+    case 19:
+        Testing.Test();
         break;
 
     default:
