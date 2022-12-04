@@ -19,7 +19,7 @@ namespace Calculator.Week4
     }
     public class Eagle : Bird
     {
-        public void getName()
+        public void getName(string name)
         {
             Console.WriteLine("My name is " + name);
         }
@@ -33,7 +33,7 @@ namespace Calculator.Week4
             Eagle eagle = new Eagle();
             eagle.display();
 
-            eagle.getName();
+            eagle.getName("Herrro");
         }
     }
 

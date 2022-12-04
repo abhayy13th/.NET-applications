@@ -35,6 +35,11 @@ Console.WriteLine("Press 15 for Prime or not example ");
 Console.WriteLine("Press 16 for Odd even example ");
 Console.WriteLine("Press 17 for Search element in array ");
 Console.WriteLine("Press 18 for Swap example ");
+Console.WriteLine("Press 19 for Inheritance ");
+Console.WriteLine("Press 20 for Abstraction ");
+Console.WriteLine("Press 21 for Encapsulation ");
+Console.WriteLine("Press 22 for Polymorphism ");
+
 
 Console.Write("Your option? ");
 int choice = Convert.ToInt32(Console.ReadLine());
@@ -98,6 +103,16 @@ switch (choice)
     case 19:
         Testing.Test();
         break;
+    case 20:
+        CallAbstraction.AbstractionCall();
+        break;
+    case 21:
+        EncapsulationClass.CallEncapsulation();
+        break;
+    case 22:
+        Polymorphism.PolyClass.PolynMethod();
+        break;
+
 
     default:
         inter.StringInterpolation();
