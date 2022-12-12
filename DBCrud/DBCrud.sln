@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBCrud", "DBCrud.csproj", "{5113EB61-22D2-45E5-9C42-9208288E9014}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5113EB61-22D2-45E5-9C42-9208288E9014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5113EB61-22D2-45E5-9C42-9208288E9014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5113EB61-22D2-45E5-9C42-9208288E9014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5113EB61-22D2-45E5-9C42-9208288E9014}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0C0D2AF-1271-48B5-B5D5-F479AEAFE248}
+	EndGlobalSection
+EndGlobal
